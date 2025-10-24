@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Assignments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>JS practice</h1>
+
+    <section id="part1">
+      <h2>Part 1. Introduction to JavaScript</h2>
+      <div class="card">
+        <h3>Task 0. First Script</h3>
+        <p>bro open the console to see logs.</p>
+      </div>
+      <div class="card">
+        <h3>Task 1. Variables & Operators</h3>
+        <p>Results are printed in the console.</p>
+      </div>
+    </section>
+
+    <section id="part2">
+      <h2>Part 2. DOM Manipulation</h2>
+
+      <div class="card">
+        <h3>Task 2. Changing Content</h3>
+        <p id="change-text-paragraph">this is rt!</p>
+        <button id="btn-change-text">magic</button>
+      </div>
+
+      <div class="card">
+        <h3>Task 3. Changing Styles</h3>
+        <div id="style-box" class="box">This text will change style.</div>
+        <div class="btn-row">
+          <button id="btn-change-bg">change bg</button>
+          <button id="btn-change-font">change font size</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Task 4. Creating & Removing Elements</h3>
+        <div class="btn-row">
+          <button id="btn-add-item">Add Item</button>
+          <button id="btn-remove-item">Remove Item</button>
+        </div>
+        <ul id="item-list" class="list"></ul>
+      </div>
+    </section>
+
+    <section id="part3">
+      <h2>Part 3. Events</h2>
+
+      <div class="card">
+        <h3>Task 5. Mouse Events</h3>
+        <div id="hover-box" class="box hover">Hover over me</div>
+      </div>
+
+      <div class="card">
+        <h3>Task 6. Keyboard Events</h3>
+        <input id="live-input" type="text" placeholder="Type something...">
+        <p>Current value: <span id="live-output"></span></p>
+      </div>
+
+    <section id="part4">
+      <h2>Part 4. Mini Project — Interactive To-Do List</h2>
+      <div class="card">
+        <div class="todo-input-row">
+          <input id="todo-input" type="text" placeholder="New task...">
+          <button id="add-task">Add Task</button>
+        </div>
+        <ul id="todo-list" class="list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
